@@ -13,6 +13,14 @@ class MY_Model extends CI_Model {
 		parent::__construct();
 	}
 	
+	public function array_from_post($fields) {
+		$data = array();
+		foreach ($fields as $field) {
+			$data[$field] = $this->input->post($field);
+		}
+		return $data;
+	}
+	
 	public function get($id = NULL, $single = FALSE) {
 		
 		if ($id != NULL) {
@@ -44,7 +52,7 @@ class MY_Model extends CI_Model {
 		if ($this->_timestamps == TRUE) {
 			$now = date('Y-m-d H:i:s');
 			$id || $data['created'] = $now;
-			$data['modified'] = $now;
+			/* $data['modified'] = $now; */
 		}
 		
 		// Insert 

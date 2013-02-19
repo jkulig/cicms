@@ -5,8 +5,8 @@
 	    <a class="brand" href="<?php echo site_url('admin/dashboard'); ?>"><?php echo $meta_title; ?></a>
 		    <ul class="nav">
 			    <li class="active"><a href="<?php echo site_url('admin/dashboard'); ?>">Home</a></li>
-			    <li><?php echo anchor('admin/pages', 'pages'); ?></li>
-			    <li><?php echo anchor('admin/users', 'users'); ?></li>
+			    <li><?php echo anchor('admin/pages', 'page'); ?></li>
+			    <li><?php echo anchor('admin/users', 'user'); ?></li>
 		    </ul>
 	    </div>
     </div>
@@ -14,9 +14,7 @@
     	<div class="row">
 	    	<!-- Main column -->
 	    	<div class="span9">
-		    	<section>
-		    		<h2>Page name</h2>
-		    	</section>
+<?php $this->load->view($subview); ?>
 	    	</div>
 	    	
 	    	<!-- Sidebar -->
