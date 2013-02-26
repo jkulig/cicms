@@ -37,6 +37,17 @@ class Article_m extends MY_Model {
 		$article->pubdate = date('Y-m-d');
 		return $article;
 	}
+	public function set_published() {
+		// TODO Replace all instances of pubdate
+		$this->db->where('pubdate <=', date('Y-m-d'));
+	}
+	
+	public function get_recent($limit = 3) {
+		$limit = (int) $limit;
+		$this->set_published();
+		$this->db->limit($limit);
+		return parent::get();
+	}
 	
 	public function delete($id) {
 		// Delete a article

@@ -42,6 +42,12 @@ class Page_m extends MY_Model {
 		return $page;
 	}
 	
+	public function get_archive_link() {
+		$page = parent::get_by(array('template' => 'news_archive'), TRUE);
+		return isset($page->template) ? $page->template : '';
+	}
+	
+	
 	public function delete($id) {
 		// Delete a page
 		parent::delete($id);
