@@ -35,3 +35,14 @@ ERROR - 2013-02-26 12:50:09 --> Severity: Notice  --> Undefined variable: recent
 ERROR - 2013-02-26 12:50:09 --> Severity: Warning  --> Invalid argument supplied for foreach() /Users/jkulig/Dev/htdocs/sandbox/php/oop/cicms/application/helpers/cms_helper.php 18
 ERROR - 2013-02-26 12:50:13 --> Severity: Notice  --> Undefined variable: recent_news /Users/jkulig/Dev/htdocs/sandbox/php/oop/cicms/application/views/sidebar.php 2
 ERROR - 2013-02-26 12:50:13 --> Severity: Warning  --> Invalid argument supplied for foreach() /Users/jkulig/Dev/htdocs/sandbox/php/oop/cicms/application/helpers/cms_helper.php 18
+ERROR - 2013-02-26 13:21:35 --> Severity: Notice  --> Undefined property: stdClass::$pubdate /Users/jkulig/Dev/htdocs/sandbox/php/oop/cicms/application/views/templates/page.php 5
+ERROR - 2013-02-26 13:31:26 --> Severity: Notice  --> Undefined variable: tis /Users/jkulig/Dev/htdocs/sandbox/php/oop/cicms/application/controllers/admin/dashboard.php 10
+ERROR - 2013-02-26 13:31:26 --> Severity: Notice  --> Trying to get property of non-object /Users/jkulig/Dev/htdocs/sandbox/php/oop/cicms/application/controllers/admin/dashboard.php 10
+ERROR - 2013-02-26 13:31:47 --> Query error: Unknown column 'modified' in 'order clause'
+ERROR - 2013-02-26 13:35:19 --> Severity: Notice  --> Undefined property: stdClass::$modified /Users/jkulig/Dev/htdocs/sandbox/php/oop/cicms/application/views/admin/dashboard/index.php 6
+ERROR - 2013-02-26 13:35:19 --> Severity: Notice  --> Undefined property: stdClass::$modified /Users/jkulig/Dev/htdocs/sandbox/php/oop/cicms/application/views/admin/dashboard/index.php 6
+ERROR - 2013-02-26 13:35:19 --> Severity: Notice  --> Undefined property: stdClass::$modified /Users/jkulig/Dev/htdocs/sandbox/php/oop/cicms/application/views/admin/dashboard/index.php 6
+ERROR - 2013-02-26 13:35:19 --> Severity: Notice  --> Undefined property: stdClass::$modified /Users/jkulig/Dev/htdocs/sandbox/php/oop/cicms/application/views/admin/dashboard/index.php 6
+ERROR - 2013-02-26 13:35:19 --> Severity: Notice  --> Undefined property: stdClass::$modified /Users/jkulig/Dev/htdocs/sandbox/php/oop/cicms/application/views/admin/dashboard/index.php 6
+ERROR - 2013-02-26 13:35:45 --> 404 Page Not Found --> http://localhost:8888/sandbox/php/oop/cicms/admin/article/edit3
+ERROR - 2013-02-26 13:36:36 --> 404 Page Not Found --> http://localhost:8888/sandbox/php/oop/cicms/admin/article/edit3
